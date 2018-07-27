@@ -1,0 +1,287 @@
+a:visited, a:link{
+  text-decoration: none;
+  color: white;
+}
+
+.fixed{
+  position: fixed;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e03e3e;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 2px 5px #d13838;
+}
+
+.menu img{
+  height: 75px;
+  width: 100px;
+  margin-left: 35px;
+}
+
+.menu nav ul{
+  display: flex;
+  list-style: none;
+  font-size: 35px;
+  width: 750px;
+  justify-content: space-around;
+}
+
+.menu nav ul li{
+  color: #777777;
+  padding: 17px;
+}
+
+.menu nav ul li a:link:hover, .menu nav ul li a:visited:hover{
+  color:  #ededed;
+}
+
+.menu nav ul li a:visited, .menu nav ul li a:link{
+  color: white;
+  text-decoration: none;
+  font-family: 'Lily Script One', cursive;
+}
+.menu nav ul li:hover{
+  color: white;
+}
+
+body{
+  background-color: #ff4546;
+  margin: 0;
+  padding: 0;
+}
+
+.commentaire{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border: 1px solid white;
+  align-items: center;
+  width: 50%;
+  margin-left: 25%;
+  background-color: #F7F7F7;
+  border: 3px solid white;
+}
+
+.commentaire img{
+  width: 100px;
+  height: 100px;
+  border-radius: 90;
+  margin-left: 15px;
+}
+
+.commentaire img:hover{
+  background-color: white;
+  border-radius: 90px;
+  opacity: 0.8;
+  z-index:1;
+}
+
+
+.commentaire p{
+  color: black;
+  margin-left: 25px;
+  text-align: justify;
+  margin-right: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.commentaire2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border: 1px solid white;
+  align-items: center;
+  width: 50%;
+  margin-left: 25%;
+  background-color: #F7F7F7;
+  border: 3px solid white;
+}
+
+.commentaire2 img{
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+}
+
+.commentaire2 img:hover{
+  background-color: white;
+  border-radius: 90px;
+  opacity: 0.8;
+  z-index:1;
+}
+
+.commentaire2 p{
+  color: black;
+  margin-right: 25px;
+  text-align: justify;
+  padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+footer{
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  border-top: 1px solid white;
+}
+
+footer p{
+  color: white;
+  text-align: center;
+  margin:0;
+  margin-top: 20px;
+}
+
+.foot1{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.foot1 p{
+  width: 50%;
+}
+
+.barre{
+  background-color: white;
+  width: 20%;
+  height: 2px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.barrelongue{
+  background-color: white;
+  padding-bottom: 2px;
+  margin: 0;
+}
+
+.barremilong{
+  background-color: white;
+  padding-bottom: 2px;
+  margin: 0;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.comptearebours{
+  text-align: center;
+}
+
+.lancement{
+  text-align: center;
+  background-color: #311A63;
+  color: white;
+  width: 10%;
+  margin-left: 45%;
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  border-radius: 35px;
+  border: 2px solid #C24FD7;
+}
+
+.titre{
+  text-align: center;
+  font-family: arial;
+  font-style: bold;
+  color: white;
+  margin: 20px 0 20px 0;
+}
+
+.avis{
+  background-color: #6747c7;
+}
+
+.ventes{
+  background-color: #FECC00;
+}
+
+.erreur404{
+  width: 100%;
+  margin: 14% 0 14% 0;
+}
+
+.erreur404titre{
+  text-align: center;
+  color: white;
+  font-size: 200px;
+  font-family: arial;
+  margin: 0;
+}
+
+.erreur404text{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: arial;
+  margin: 0;
+}
+
+.offert{
+  text-align: center;
+}
+
+.offert img{
+  width: 25%;
+}
+
+.bulle{
+  position: absolute;
+  position: fixed;
+  border-radius: 90px;
+  top: 85%;
+  left: 96%;
+  cursor: pointer;
+  border: 4px solid #FECC00;
+  padding: 25px;
+  background-color: white;
+}
+
+.bulle img{
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  width: 30px;
+  height: 30px;
+}
+
+.tchat{
+  display: none;
+  font-size: 20px;
+  background-color: white;
+  border: 3px solid #e03e3e;
+  padding: 5px;
+  position: fixed;
+  top: 300px;
+  left: 1500px;
+  width: 19.5%;
+  height: 450px;
+  border-radius: 15px;
+}
+
+.tchat p{
+  margin: 0;
+}
+
+.tchat2{
+  opacity: 1;
+  color: white;
+  padding: 9px;
+  text-align: justify;
+  margin: 0;
+}
+
+.tchattitre{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
